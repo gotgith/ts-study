@@ -5,11 +5,14 @@ function add<T>(a: any, b: any): T {
 add<number>(1, 2)
 add<string>("12", "34")
 
+
+
+
+
 // function returnIt<T>(arg: T): T{
 //     console.log(arg.length) // error
 //     return arg;
 // }
-
 
 // 泛型约束
 interface HasLength {
